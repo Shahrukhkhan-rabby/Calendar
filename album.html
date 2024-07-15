@@ -4,8 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Album</title>
+   <style>
+    .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .photo-frame {
+        width: 300px;
+        height: 200px;
+        border: 2px solid goldenrod;
+        border-radius: 10px;
+        position: relative;
+        margin: 15px;
+        overflow: hidden;
+    }
+    .photo img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .photo-details {
+        display: none;
+        position: absolute;
+        width: 300px;
+        top: 0;
+    }
+    .photo-details h3 {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .photo-details p {
+        color: white;
+    }
+    .photo-frame:hover .photo-details {
+display: block;
+background-color: rgba(204, 176, 106, 0.418);
+    }
+    .photo-frame:hover .photo{
+        transform: scale(1.5) skew(-30deg);
+        transition: transform 2s ease-in-out;
+    }
+   </style>
 </head>
 <body>
     <h1>My Awesome Photo Album</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="Tiger.jpeg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama Candid</h3>
+                    <p>(As if they were wild donkeys. Fleeing from a Qaswarah.) meaning, as if they were fleeing from the truth and turning away from it, like a wild donkey when it flees from something that is trying to catch it, like a lion. This was said by Abu Hurayrah. Hammad bin Salamah reported from `Ali bin Zayd who reported from Yusuf bin Mihran who narrated that Ibn `Abbas said, "It (Qaswarah) is the lion in the Arabic language. It is called Qaswarah in the Abyssinian language, Sher in the Persian language and Awba in the Nabtiyyah (Nabatean) language." Concerning Allah's statement,
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
